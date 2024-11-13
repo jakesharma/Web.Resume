@@ -1,0 +1,185 @@
+:root {
+    --default-color: #adc1bd;
+    --white-color: white;
+    --royal-blue: royalblue;
+}
+
+:root {
+    --ti-cursor-color: black;
+}
+
+.name,
+#progress-color {
+    color: var(--royal-blue);
+}
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.btn-primary,
+.btn-primary:hover {
+    background-color: var(--default-color) !important;
+    border: var(--default-color) !important;
+}
+
+#header-name {
+    color: var(--royal-blue);
+}
+
+#about-us,
+#skill,
+#experience {
+    background-color: var(--default-color);
+    color: var(--white-color);
+}
+
+
+/* .btn-with-arrow {
+    width: 120px;
+    position: relative;
+    z-index: 1;
+    top: 0%;
+    left: 0%;
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -10px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: black transparent transparent transparent;
+    }
+} */
+
+.navbar {
+    background-color: var(--default-color);
+}
+
+.nav-item .nav-link {
+    color: var(--white-color);
+}
+
+
+button .navbar-toggler {
+    background-color: var(--default-color);
+}
+
+#home {
+    background-color: var(--default-color);
+}
+
+.active_nav {
+    background-color: var(--default-color);
+    color: var(--default-color);
+}
+
+#about_mode {
+    display: block;
+}
+
+#skill_mode {
+    display: none;
+}
+
+#experience_mode {
+    display: none;
+}
+
+#readmore {
+    /* margin-left: 0rem; */
+    color: royalblue;
+
+    &:hover {
+        margin-left: 1rem;
+        color: black;
+        transition: 0.5s;
+    }
+}
+
+
+.gallery,
+.collapse .gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-color);
+    width: 400px;
+    height: 500px;
+}
+
+#rank,
+#copyright {
+    background-color: var(--default-color);
+}
+
+
+#portfolio,
+#close {
+    padding: 0rem 5rem;
+}
+
+.gallery,
+.collapse .gallery {
+    background-color: none;
+}
+
+.gallery img {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+    transition: 0.5s;
+
+    &:hover {
+        transform: scale(2.5);
+    }
+}
+
+
+.collapse .gallery img {
+    width: 100%;
+}
+
+/* #contact{
+    padding: 5rem 10rem;
+} */
+#about,
+#home,
+#services,
+#portfolio,
+#contact,
+footer,
+#image-home,
+#image-home img,
+#skill-level,
+#level {
+    /* border: 2px solid red; */
+}
+
+/* @media screen and (max-width: 1080px) {
+    #home-list{
+        position: absolute;
+        z-index: 2;
+    }
+    #image-home{
+        position: relative;
+        z-index: 1;
+        left: 50%;
+    }
+    #image-home img{
+        width: 50%;
+    }
+} */
